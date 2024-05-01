@@ -6,9 +6,8 @@ using UnityEngine.SceneManagement;
 public class ButtonIslemleri : MonoBehaviour
 {
 	public void OnButtonClick()
-	{
-		// Ýstenilen sahnenin adýný SceneManager ile yükleyebiliriz.
-		// Örneðin, "YeniSahne" adlý bir sahneye geçmek için:
+	{		
+		// Bulunduðu sahnenin indisi alýp bir ekliyor bu þekilde bir sonraki sahneye geçmiþ oluyor.
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
 	}
