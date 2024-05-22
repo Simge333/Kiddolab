@@ -15,12 +15,13 @@ public class OyuncuScript : MonoBehaviour
 	{
 		if (Input.GetKey(KeyCode.W))
 		{
-			playerRigid.velocity = transform.forward * w_speed * Time.deltaTime;
+			playerRigid.velocity = transform.forward * w_speed;
 		}
 		if (Input.GetKey(KeyCode.S))
 		{
-			playerRigid.velocity = -transform.forward * wb_speed * Time.deltaTime;
+			playerRigid.velocity = -transform.forward * wb_speed;
 		}
+		
 	}
 	void Update()
 	{
@@ -42,12 +43,14 @@ public class OyuncuScript : MonoBehaviour
 		{
 			playerAnim.SetTrigger("walkback");
 			playerAnim.ResetTrigger("idle");
+			walking= true;
 			//steps1.SetActive(true);
 		}
 		if (Input.GetKeyUp(KeyCode.S))
 		{
 			playerAnim.ResetTrigger("walkback");
 			playerAnim.SetTrigger("idle");
+			walking = false;
 			//steps1.SetActive(false);
 		}
 		if (Input.GetKey(KeyCode.A))

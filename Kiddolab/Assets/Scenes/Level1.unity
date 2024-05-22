@@ -430,7 +430,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 116
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &1670658357
 MonoBehaviour:
@@ -446,11 +446,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAnim: {fileID: 2114103781}
   playerRigid: {fileID: 1670658356}
-  w_speed: 120
-  wb_speed: 120
-  olw_speed: 120
-  rn_speed: 160
-  ro_speed: 90
+  w_speed: 5
+  wb_speed: 10
+  olw_speed: 5
+  rn_speed: 50
+  ro_speed: 30
   walking: 0
   playerTrans: {fileID: 1670658355}
 --- !u!1 &2062477396
