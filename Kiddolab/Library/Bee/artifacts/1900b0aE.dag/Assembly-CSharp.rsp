@@ -348,6 +348,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/ButtonIslemleri.cs"
+"Assets/Scripts/ButtonIslemleri1.cs"
 "Assets/Scripts/kameraScript.cs"
 "Assets/Scripts/OyuncuScript.cs"
 -langversion:9.0

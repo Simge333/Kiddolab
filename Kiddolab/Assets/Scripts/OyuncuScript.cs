@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OyuncuScript : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class OyuncuScript : MonoBehaviour
 	public float w_speed, wb_speed, olw_speed, rn_speed, ro_speed;
 	public bool walking;
 	public Transform playerTrans;
-
+	[SerializeField] GameObject soruPaneli;
 
 	void FixedUpdate()
 	{
@@ -82,4 +83,19 @@ public class OyuncuScript : MonoBehaviour
 		}
 		
 	  }
+
+
+	#region Bitiþ noktasi islemleri
+	private void OnCollisionEnter(Collision collision)
+	{
+		if (collision.gameObject.CompareTag("bitisnok"))
+		{
+			soruPaneli.SetActive(true);
+			Time.timeScale = 0;
+		}
 	}
+
+	#endregion
+}
+
+
