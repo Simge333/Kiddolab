@@ -1602,7 +1602,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 13, y: -14}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 140.17, y: 26.034}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1796804541
 MonoBehaviour:
@@ -1637,7 +1637,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Puan:'
+  m_Text: 'Level : 1'
 --- !u!222 &1796804542
 CanvasRenderer:
   m_ObjectHideFlags: 0

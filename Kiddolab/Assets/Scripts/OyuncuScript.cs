@@ -12,6 +12,10 @@ public class OyuncuScript : MonoBehaviour
 	public Transform playerTrans;
 	[SerializeField] GameObject soruPaneli;
 
+	private void Start()
+	{
+		Time.timeScale = 1;
+	}
 	void FixedUpdate()
 	{
 		if (Input.GetKey(KeyCode.W))
