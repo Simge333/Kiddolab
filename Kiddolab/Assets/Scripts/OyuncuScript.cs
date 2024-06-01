@@ -7,7 +7,7 @@ public class OyuncuScript : MonoBehaviour
 {
 	public Animator playerAnim;
 	public Rigidbody playerRigid;
-	public float w_speed, wb_speed, olw_speed, rn_speed, ro_speed;
+	public float w_speed, wb_speed, ro_speed;
 	public bool walking;
 	public Transform playerTrans;
 	[SerializeField] GameObject soruPaneli;
@@ -28,6 +28,8 @@ public class OyuncuScript : MonoBehaviour
 		}
 		
 	}
+
+	#region Karakter Hareket Ýþlemleri
 	void Update()
 	{
 		if (Input.GetKeyDown(KeyCode.W))
@@ -66,28 +68,10 @@ public class OyuncuScript : MonoBehaviour
 		{
 			playerTrans.Rotate(0, ro_speed * Time.deltaTime, 0);
 		}
-		if (walking == true)
-		{
-			if (Input.GetKeyDown(KeyCode.LeftShift))
-			{
-				//steps1.SetActive(false);
-				//steps2.SetActive(true);
-				w_speed = w_speed + rn_speed;
-				playerAnim.SetTrigger("run");
-				playerAnim.ResetTrigger("walk");
-			}
-			if (Input.GetKeyUp(KeyCode.LeftShift))
-			{
-				//steps1.SetActive(true);
-				//steps2.SetActive(false);
-				w_speed = olw_speed;
-				playerAnim.ResetTrigger("run");
-				playerAnim.SetTrigger("walk");
-			}
-		}
+		
 		
 	  }
-
+	#endregion
 
 	#region Bitiþ noktasi islemleri
 	private void OnCollisionEnter(Collision collision)
