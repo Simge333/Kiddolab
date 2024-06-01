@@ -11,10 +11,13 @@ public class OyuncuScript : MonoBehaviour
 	public bool walking;
 	public Transform playerTrans;
 	[SerializeField] GameObject soruPaneli;
+	public float can=100;
 
 	private void Start()
 	{
 		Time.timeScale = 1;
+
+
 	}
 	void FixedUpdate()
 	{
@@ -73,7 +76,7 @@ public class OyuncuScript : MonoBehaviour
 	  }
 	#endregion
 
-	#region Bitiþ noktasi islemleri
+	#region Bitiþ noktasi ve Özellik kartý iþlemleri
 	private void OnCollisionEnter(Collision collision)
 	{
 		if (collision.gameObject.CompareTag("bitisnok"))
@@ -81,9 +84,27 @@ public class OyuncuScript : MonoBehaviour
 			soruPaneli.SetActive(true);
 			Time.timeScale = 0;
 		}
+
+
+		if (collision.gameObject.CompareTag("Enemy"))
+		{
+			can -= 10;
+			
+		}
+
+		if (collision.gameObject.CompareTag("CanYenileme"))
+		{
+			can = 100;
+		}
+		
+		
 	}
 
+
+
 	#endregion
+
+
 }
 
 
