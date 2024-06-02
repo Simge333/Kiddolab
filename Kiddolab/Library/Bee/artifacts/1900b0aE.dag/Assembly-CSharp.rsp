@@ -349,7 +349,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/ButtonIslemleri.cs"
 "Assets/Scripts/ButtonIslemleri1.cs"
-"Assets/Scripts/CanScript.cs"
 "Assets/Scripts/DusmanScript.cs"
 "Assets/Scripts/kameraScript.cs"
 "Assets/Scripts/KartIslemleri.cs"

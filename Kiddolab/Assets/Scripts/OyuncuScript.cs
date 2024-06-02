@@ -11,7 +11,13 @@ public class OyuncuScript : MonoBehaviour
 	public bool walking;
 	public Transform playerTrans;
 	[SerializeField] GameObject soruPaneli;
-	public float can=100;
+	
+
+	public GameObject[] kalpler;
+	public int can=5, maxcan=5,currentcan;
+
+	private bool canProtected = false;
+
 
 	private void Start()
 	{
@@ -71,10 +77,30 @@ public class OyuncuScript : MonoBehaviour
 		{
 			playerTrans.Rotate(0, ro_speed * Time.deltaTime, 0);
 		}
-		
-		
+
+		if (can <= 0)
+		{
+			Debug.Log("gameover");
+		}
 	  }
 	#endregion
+
+	void can_sistemi()
+	{
+		
+		
+		for (int i = 0; i < maxcan; i++)
+		{
+			kalpler[i].SetActive(false);
+		}
+
+		for (int i = 0; i < can; i++)
+		{
+			kalpler[i].SetActive(true);
+		}
+		
+		
+	}
 
 	#region Bitiþ noktasi ve Özellik kartý iþlemleri
 	private void OnCollisionEnter(Collision collision)
@@ -88,18 +114,46 @@ public class OyuncuScript : MonoBehaviour
 
 		if (collision.gameObject.CompareTag("Enemy"))
 		{
-			can -= 10;
+			if (!canProtected)
+			{
+				can -= 1;
+				can_sistemi();
+			}
+			//can -= 1;
 			
-		}
-
-		if (collision.gameObject.CompareTag("CanYenileme"))
-		{
-			can = 100;
+			//can_sistemi();
+			
 		}
 		
 		
 	}
+	private void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.CompareTag("CanYenileme"))
+		{
+			can = 5;
+			for (int i = 0; i < can; i++)
+			{
+				kalpler[i].SetActive(true);
+			}
+		}
 
+		if (other.gameObject.CompareTag("olumsuzluk"))
+		{
+			if (!canProtected)
+			{
+				StartCoroutine(ProtectCan());
+			}
+
+		}
+	}
+
+	private IEnumerator ProtectCan()
+	{
+		canProtected = true;
+		yield return new WaitForSeconds(3);
+		canProtected = false;
+	}
 
 
 	#endregion

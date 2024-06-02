@@ -11,17 +11,21 @@ public class DusmanScript : MonoBehaviour
 	{
 		_navmeshAgent = GetComponent<NavMeshAgent>();
 		_navmeshAgent.updateUpAxis = false; // Çarpýþma algýlamasýný devre dýþý býrak
+		
+
 	}
 
 
 	void Update()
 	{
+		
+
 		transform.LookAt(hedefTransform);
 		_navmeshAgent.SetDestination(hedefTransform.position);
 		
 	}
-
-
 	
+
+
 
 }
