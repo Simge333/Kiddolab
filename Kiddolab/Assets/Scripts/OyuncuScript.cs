@@ -14,9 +14,9 @@ public class OyuncuScript : MonoBehaviour
 	
 
 	public GameObject[] kalpler;
-	public int can=5, maxcan=5,currentcan;
+	public int can=5, maxcan=5;
 
-	private bool canProtected = false;
+	private bool canProtected = false,isDeath=false;
 
 
 	private void Start()
@@ -27,60 +27,73 @@ public class OyuncuScript : MonoBehaviour
 	}
 	void FixedUpdate()
 	{
-		if (Input.GetKey(KeyCode.W))
+		if (!isDeath)
 		{
-			playerRigid.velocity = transform.forward * w_speed;
+			if (Input.GetKey(KeyCode.W))
+			{
+				playerRigid.velocity = transform.forward * w_speed;
+			}
+			if (Input.GetKey(KeyCode.S))
+			{
+						playerRigid.velocity = -transform.forward * wb_speed;
+			}
 		}
-		if (Input.GetKey(KeyCode.S))
-		{
-			playerRigid.velocity = -transform.forward * wb_speed;
-		}
+		
 		
 	}
 
 	#region Karakter Hareket Ýþlemleri
 	void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.W))
+		if (!isDeath)
 		{
-			playerAnim.SetTrigger("walk");
-			playerAnim.ResetTrigger("idle");
-			walking = true;
-			//steps1.SetActive(true);
+			if (Input.GetKeyDown(KeyCode.W))
+			{
+				playerAnim.SetTrigger("walk");
+				playerAnim.ResetTrigger("idle");
+				walking = true;
+				//steps1.SetActive(true);
+			}
+			if (Input.GetKeyUp(KeyCode.W))
+			{
+				playerAnim.ResetTrigger("walk");
+				playerAnim.SetTrigger("idle");
+				walking = false;
+				//steps1.SetActive(false);
+			}
+			if (Input.GetKeyDown(KeyCode.S))
+			{
+				playerAnim.SetTrigger("walkback");
+				playerAnim.ResetTrigger("idle");
+				walking = true;
+				//steps1.SetActive(true);
+			}
+			if (Input.GetKeyUp(KeyCode.S))
+			{
+				playerAnim.ResetTrigger("walkback");
+				playerAnim.SetTrigger("idle");
+				walking = false;
+				//steps1.SetActive(false);
+			}
+			if (Input.GetKey(KeyCode.A))
+			{
+				playerTrans.Rotate(0, -ro_speed * Time.deltaTime, 0);
+			}
+			if (Input.GetKey(KeyCode.D))
+			{
+				playerTrans.Rotate(0, ro_speed * Time.deltaTime, 0);
+			}
 		}
-		if (Input.GetKeyUp(KeyCode.W))
-		{
-			playerAnim.ResetTrigger("walk");
-			playerAnim.SetTrigger("idle");
-			walking = false;
-			//steps1.SetActive(false);
-		}
-		if (Input.GetKeyDown(KeyCode.S))
-		{
-			playerAnim.SetTrigger("walkback");
-			playerAnim.ResetTrigger("idle");
-			walking= true;
-			//steps1.SetActive(true);
-		}
-		if (Input.GetKeyUp(KeyCode.S))
-		{
-			playerAnim.ResetTrigger("walkback");
-			playerAnim.SetTrigger("idle");
-			walking = false;
-			//steps1.SetActive(false);
-		}
-		if (Input.GetKey(KeyCode.A))
-		{
-			playerTrans.Rotate(0, -ro_speed * Time.deltaTime, 0);
-		}
-		if (Input.GetKey(KeyCode.D))
-		{
-			playerTrans.Rotate(0, ro_speed * Time.deltaTime, 0);
-		}
+		
 
 		if (can <= 0)
 		{
-			Debug.Log("gameover");
+			isDeath= true;
+			playerAnim.SetTrigger("die");
+			playerAnim.ResetTrigger("idle");
+			
+			StartCoroutine(SahneyiYenidenBaslat(3f)); // 3 saniye bekleyip sahneyi yeniden baþlat
+			
 		}
 	  }
 	#endregion
@@ -159,6 +172,16 @@ public class OyuncuScript : MonoBehaviour
 	#endregion
 
 
+	IEnumerator SahneyiYenidenBaslat(float beklemeSuresi)
+	{
+		yield return new WaitForSeconds(beklemeSuresi);
+
+		// Mevcut sahnenin adýný al
+		string sceneName = SceneManager.GetActiveScene().name;
+
+		// Mevcut sahneyi yeniden yükle
+		SceneManager.LoadScene(sceneName);
+	}
 }
 
 
