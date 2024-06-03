@@ -9,6 +9,8 @@ TagManager:
   - sorupanel
   - CanYenileme
   - olumsuzluk
+  - icduvar
+  - duvar
   layers:
   - Default
   - TransparentFX

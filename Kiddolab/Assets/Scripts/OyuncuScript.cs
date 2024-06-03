@@ -11,9 +11,10 @@ public class OyuncuScript : MonoBehaviour
 	public bool walking;
 	public Transform playerTrans;
 	[SerializeField] GameObject soruPaneli;
-	
 
-	public GameObject[] kalpler;
+	AudioSource steps1;
+
+	public GameObject[] kalpler,Duvar;
 	public int can=5, maxcan=5;
 
 	private bool canProtected = false,isDeath=false;
@@ -22,7 +23,7 @@ public class OyuncuScript : MonoBehaviour
 	private void Start()
 	{
 		Time.timeScale = 1;
-
+		steps1 = GetComponent<AudioSource>();
 
 	}
 	void FixedUpdate()
@@ -52,28 +53,29 @@ public class OyuncuScript : MonoBehaviour
 				playerAnim.SetTrigger("walk");
 				playerAnim.ResetTrigger("idle");
 				walking = true;
-				//steps1.SetActive(true);
+				steps1.Play();
 			}
 			if (Input.GetKeyUp(KeyCode.W))
 			{
 				playerAnim.ResetTrigger("walk");
 				playerAnim.SetTrigger("idle");
 				walking = false;
-				//steps1.SetActive(false);
+				steps1.Stop();				
 			}
 			if (Input.GetKeyDown(KeyCode.S))
 			{
 				playerAnim.SetTrigger("walkback");
 				playerAnim.ResetTrigger("idle");
 				walking = true;
-				//steps1.SetActive(true);
+				steps1.Play();
 			}
 			if (Input.GetKeyUp(KeyCode.S))
 			{
 				playerAnim.ResetTrigger("walkback");
 				playerAnim.SetTrigger("idle");
 				walking = false;
-				//steps1.SetActive(false);
+				steps1.Stop();
+				
 			}
 			if (Input.GetKey(KeyCode.A))
 			{
@@ -159,6 +161,12 @@ public class OyuncuScript : MonoBehaviour
 			}
 
 		}
+
+		if (other.gameObject.CompareTag("duvar"))
+		{
+
+			StartCoroutine(DuvarlariYonetenCoroutine());
+		}
 	}
 
 	private IEnumerator ProtectCan()
@@ -167,7 +175,23 @@ public class OyuncuScript : MonoBehaviour
 		yield return new WaitForSeconds(3);
 		canProtected = false;
 	}
+	private IEnumerator DuvarlariYonetenCoroutine()
+	{
+		// Tüm duvarlarý devre dýþý býrak
+		for (int i = 0; i < Duvar.Length; i++)
+		{
+			Duvar[i].SetActive(false);
+		}
 
+		// 3 saniye bekle
+		yield return new WaitForSeconds(3);
+
+		// Tüm duvarlarý tekrar etkinleþtir
+		for (int i = 0; i < Duvar.Length; i++)
+		{
+			Duvar[i].SetActive(true);
+		}
+	}
 
 	#endregion
 
