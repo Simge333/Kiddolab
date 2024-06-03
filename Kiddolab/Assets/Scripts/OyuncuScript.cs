@@ -22,7 +22,20 @@ public class OyuncuScript : MonoBehaviour
 
 	private void Start()
 	{
+		
 		Time.timeScale = 1;
+		
+		if (PlayerPrefs.HasKey("can"))
+		{
+			can = PlayerPrefs.GetInt("can");
+		}
+		else
+		{
+			PlayerPrefs.SetInt("can", can);
+			PlayerPrefs.Save();
+		}
+		can_sistemi();
+
 		steps1 = GetComponent<AudioSource>();
 
 	}
@@ -85,6 +98,8 @@ public class OyuncuScript : MonoBehaviour
 			{
 				playerTrans.Rotate(0, ro_speed * Time.deltaTime, 0);
 			}
+			
+
 		}
 		
 
@@ -93,11 +108,13 @@ public class OyuncuScript : MonoBehaviour
 			isDeath= true;
 			playerAnim.SetTrigger("die");
 			playerAnim.ResetTrigger("idle");
-			
+			PlayerPrefs.DeleteAll();
 			StartCoroutine(SahneyiYenidenBaslat(3f)); // 3 saniye bekleyip sahneyi yeniden baþlat
 			
 		}
-	  }
+
+
+	}
 	#endregion
 
 	void can_sistemi()
@@ -122,6 +139,7 @@ public class OyuncuScript : MonoBehaviour
 	{
 		if (collision.gameObject.CompareTag("bitisnok"))
 		{
+		
 			soruPaneli.SetActive(true);
 			Time.timeScale = 0;
 		}
@@ -139,14 +157,20 @@ public class OyuncuScript : MonoBehaviour
 			//can_sistemi();
 			
 		}
-		
-		
+		PlayerPrefs.SetInt("can", can);
+		PlayerPrefs.Save();
+
 	}
 	private void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.CompareTag("CanYenileme"))
 		{
+			
 			can = 5;
+
+			PlayerPrefs.SetInt("can", can);
+			PlayerPrefs.Save();
+
 			for (int i = 0; i < can; i++)
 			{
 				kalpler[i].SetActive(true);
