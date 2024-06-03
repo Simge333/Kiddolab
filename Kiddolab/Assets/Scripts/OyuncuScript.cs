@@ -19,7 +19,6 @@ public class OyuncuScript : MonoBehaviour
 
 	private bool canProtected = false,isDeath=false;
 
-
 	private void Start()
 	{
 		
@@ -229,6 +228,10 @@ public class OyuncuScript : MonoBehaviour
 
 		// Mevcut sahneyi yeniden yükle
 		SceneManager.LoadScene(sceneName);
+	}
+	private void OnApplicationQuit()
+	{
+		PlayerPrefs.DeleteAll();
 	}
 }
 

@@ -36,8 +36,6 @@ public class ButtonIslemleri : MonoBehaviour
 			levelPanel.SetActive(true);
 		}
 		
-			
-			
 		
 
 
