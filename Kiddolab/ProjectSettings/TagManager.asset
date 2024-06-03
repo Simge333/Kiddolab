@@ -11,6 +11,7 @@ TagManager:
   - olumsuzluk
   - icduvar
   - duvar
+  - levelPanel
   layers:
   - Default
   - TransparentFX
