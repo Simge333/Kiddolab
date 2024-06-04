@@ -40,5 +40,17 @@ public class ButtonIslemleri : MonoBehaviour
 
 
 	}
+	public void LevelcloseButton(GameObject levelPanel)
+	{
+
+		if (levelPanel.gameObject.CompareTag("levelPanel"))
+		{
+			levelPanel.SetActive(false);
+		}
+
+
+
+
+	}
 
 }

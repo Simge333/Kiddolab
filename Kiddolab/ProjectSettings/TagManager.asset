@@ -12,6 +12,7 @@ TagManager:
   - icduvar
   - duvar
   - levelPanel
+  - bilgiPanel
   layers:
   - Default
   - TransparentFX

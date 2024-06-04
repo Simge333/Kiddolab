@@ -10,8 +10,24 @@ public class ButtonIslemleri1 : MonoBehaviour
 	
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
-		
+	}
 
+	public GameObject bilgiPanel;
+
+	public void FalseButtonClick()
+	{
+		StartCoroutine(ShowPanelForTimeAndReloadScene(bilgiPanel, 2f)); 
+	}
+
+	private IEnumerator ShowPanelForTimeAndReloadScene(GameObject panel, float duration)
+	{
+		panel.SetActive(true);
+		Time.timeScale = 1;
+		yield return new WaitForSeconds(duration);
+
+		panel.SetActive(false);
+
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 
 }
