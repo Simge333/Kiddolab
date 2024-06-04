@@ -55,6 +55,9 @@ ScriptsOnlyBuild:
     methodName: LevelbirButton
   - assembly: Assembly-CSharp
     fullTypeName: ButtonIslemleri
+    methodName: LevelcloseButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonIslemleri
     methodName: OnButtonClick
   - assembly: Assembly-CSharp
     fullTypeName: ButtonIslemleri
@@ -66,14 +69,26 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonIslemleri
     methodName: LevelikiButton
   - assembly: Assembly-CSharp
+    fullTypeName: ButtonIslemleri
+    methodName: LevelcloseButton
+  - assembly: Assembly-CSharp
     fullTypeName: ButtonIslemleri1
     methodName: OnButtonClick
   - assembly: Assembly-CSharp
     fullTypeName: ButtonIslemleri
     methodName: LevelbirButton
   - assembly: Assembly-CSharp
+    fullTypeName: ButtonIslemleri1
+    methodName: FalseButtonClick
+  - assembly: Assembly-CSharp
     fullTypeName: ButtonIslemleri
     methodName: LevelikiButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonIslemleri
+    methodName: LevelcloseButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonIslemleri
+    methodName: LogoutButton
   - assembly: Assembly-CSharp
     fullTypeName: ButtonIslemleri
     methodName: LevelbirButton
@@ -83,9 +98,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ButtonIslemleri
     methodName: LogoutButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonIslemleri1
-    methodName: OnButtonClick
   sceneClasses:
     Assets/Scenes/Giris.unity:
     - Class: 1
@@ -113,21 +125,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1556}
+      Script: {instanceID: 1558}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2732}
+      Script: {instanceID: 2734}
     - Class: 114
-      Script: {instanceID: 3008}
+      Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 4942}
+      Script: {instanceID: 4944}
     - Class: 114
-      Script: {instanceID: 5148}
+      Script: {instanceID: 5150}
     - Class: 114
-      Script: {instanceID: 5440}
+      Script: {instanceID: 5442}
     - Class: 114
-      Script: {instanceID: 5892}
+      Script: {instanceID: 5894}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -186,31 +198,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1556}
+      Script: {instanceID: 1558}
     - Class: 114
-      Script: {instanceID: 1634}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2732}
+      Script: {instanceID: 2734}
     - Class: 114
-      Script: {instanceID: 3008}
+      Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 3330}
+      Script: {instanceID: 3332}
     - Class: 114
-      Script: {instanceID: 3376}
+      Script: {instanceID: 3378}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 4942}
+      Script: {instanceID: 4944}
     - Class: 114
-      Script: {instanceID: 5148}
+      Script: {instanceID: 5150}
     - Class: 114
-      Script: {instanceID: 5440}
+      Script: {instanceID: 5442}
     - Class: 114
-      Script: {instanceID: 5892}
+      Script: {instanceID: 5894}
     - Class: 114
-      Script: {instanceID: 7420}
+      Script: {instanceID: 7422}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -277,31 +289,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1556}
+      Script: {instanceID: 1558}
     - Class: 114
-      Script: {instanceID: 1634}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2732}
+      Script: {instanceID: 2734}
     - Class: 114
-      Script: {instanceID: 3008}
+      Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 3330}
+      Script: {instanceID: 3332}
     - Class: 114
-      Script: {instanceID: 3376}
+      Script: {instanceID: 3378}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 4942}
+      Script: {instanceID: 4944}
     - Class: 114
-      Script: {instanceID: 5148}
+      Script: {instanceID: 5150}
     - Class: 114
-      Script: {instanceID: 5440}
+      Script: {instanceID: 5442}
     - Class: 114
-      Script: {instanceID: 5892}
+      Script: {instanceID: 5894}
     - Class: 114
-      Script: {instanceID: 7420}
+      Script: {instanceID: 7422}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -341,7 +353,7 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: e764f4bd583f826d57d648e9550607e7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ButtonIslemleri1
@@ -1142,4 +1154,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Giris.unity
   - Assets/Scenes/Level1.unity
   - Assets/Scenes/Level2.unity
-  playerPath: C:/Users/Simge/Desktop/buildHali/Kiddolab.exe
+  playerPath: C:/Users/Simge/Desktop/sonBuildHali/Kiddolab.exe

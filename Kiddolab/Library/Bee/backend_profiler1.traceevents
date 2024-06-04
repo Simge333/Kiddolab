@@ -1,519 +1,518 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1717449622850872, "dur":1307, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449622852186, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1717449622852238, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1717449622852251, "dur":599, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1717449622852880, "dur":527, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449622853407, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248292, "dur":468, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248761, "dur":129, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248890, "dur":17, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248907, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248916, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248917, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248923, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248924, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248929, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248930, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248935, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248936, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248940, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248941, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248945, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248946, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248949, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248950, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248955, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248956, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248960, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248960, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248964, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248965, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248969, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248970, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248974, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248975, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248979, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248980, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248985, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248986, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623248991, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623249010, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623249019, "dur":1693, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1717449622853131, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717449622853420, "dur":4505, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717449622857937, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1717449622857944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717449622860830, "dur":630, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1717449622861469, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1717449622861560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717449622861959, "dur":4973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1717449622866939, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1717449622867168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717449622867682, "dur":43019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1717449622910754, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717449622910997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717449622911004, "dur":8364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717449622919482, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717449622919747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717449622919752, "dur":8372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717449622928210, "dur":9573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717449622937787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717449622937794, "dur":7034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717449622944908, "dur":1223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717449622946137, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717449622946159, "dur":5416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717449622951627, "dur":1178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717449622952814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717449622952825, "dur":5481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717449622958373, "dur":19111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717449622977498, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717449622977526, "dur":10627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717449622988220, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1717449622988327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717449622988333, "dur":26087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1717449623014483, "dur":233803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717449622853267, "dur":167, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717449622853435, "dur":4690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717449622858126, "dur":695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1717449622858825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717449622866614, "dur":9848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1717449622876514, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622876675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717449622879749, "dur":4837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622884642, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622884802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717449622884808, "dur":6280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622891166, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622891338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717449622891345, "dur":10939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622902360, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622902560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717449622902565, "dur":6472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622909097, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622909260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717449622909266, "dur":9391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622918727, "dur":13563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622932296, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717449622932307, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622933740, "dur":4546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622938294, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717449622938309, "dur":7997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622946365, "dur":1995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622948365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717449622948372, "dur":8793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622957235, "dur":23515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622980764, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717449622980784, "dur":9390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717449622990278, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":2, "ts":1717449622990357, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717449622990383, "dur":23739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":2, "ts":1717449623014180, "dur":234107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717449622853349, "dur":105, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717449622853454, "dur":4655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717449622858110, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1717449622858552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717449622866625, "dur":10127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1717449622876787, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622876922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717449622879760, "dur":4677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622884521, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622884692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717449622884698, "dur":5763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622890549, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622890774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717449622890780, "dur":9470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622900326, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622900580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717449622900594, "dur":8093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622908781, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622909007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717449622909017, "dur":9250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622918346, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622918525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717449622918537, "dur":9255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622927859, "dur":10030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622937894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717449622937902, "dur":6933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622944923, "dur":19782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622964710, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717449622964727, "dur":6849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622971650, "dur":1410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622973069, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717449622973088, "dur":9273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449622982432, "dur":41839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449623024310, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717449623024320, "dur":4879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717449623029235, "dur":219089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717449622853463, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717449622853463, "dur":4464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717449622857937, "dur":9003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1717449622866944, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717449622867747, "dur":2875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1717449622870699, "dur":360069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717449623230772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717449623230779, "dur":17411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717449623248232, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":4, "ts":1717449623248234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717449622853547, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717449622853548, "dur":4556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717449622858105, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1717449622858558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717449622865810, "dur":44523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1717449622910437, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717449622910740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717449622910751, "dur":8519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717449622919356, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717449622919589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717449622919595, "dur":8534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717449622928199, "dur":9720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717449622937924, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717449622937936, "dur":7464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717449622945487, "dur":26051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717449622971782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717449622971806, "dur":4370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717449622976270, "dur":1352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717449622977626, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717449622977635, "dur":10423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717449622988111, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":5, "ts":1717449622988173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717449622988182, "dur":13517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":5, "ts":1717449623001927, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1717449623002098, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717449623002111, "dur":11686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1717449623013857, "dur":234422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449622853636, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449622853637, "dur":4306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449622857944, "dur":7579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1717449622865536, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449622866531, "dur":3577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1717449622870174, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":6, "ts":1717449622870375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449622870387, "dur":10493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":6, "ts":1717449622881014, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622881350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449622881862, "dur":6123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622888073, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622888293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449622888308, "dur":10567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622899059, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622899658, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449622899677, "dur":8324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622908119, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622908579, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449622908595, "dur":8141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622916823, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622917042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449622917054, "dur":9972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622927086, "dur":10609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622937705, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449622937721, "dur":7092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622944929, "dur":1727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622946663, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449622946677, "dur":8232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622954989, "dur":25892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622980888, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449622980916, "dur":9278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717449622990293, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1717449622990375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449622990387, "dur":12684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1717449623003286, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1717449623003390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717449623003409, "dur":11035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1717449623014501, "dur":233802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717449622853719, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717449622853719, "dur":4394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717449622858114, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1717449622858472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717449622866696, "dur":43148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1717449622909946, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717449622910152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717449622910162, "dur":8704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717449622918950, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717449622919227, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717449622919242, "dur":8611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717449622927920, "dur":10158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717449622938123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717449622938131, "dur":8220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717449622946413, "dur":1166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717449622947586, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717449622947601, "dur":8416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717449622956158, "dur":1859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717449622958030, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717449622958049, "dur":6522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717449622964637, "dur":7806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717449622972451, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717449622972468, "dur":14113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717449622986643, "dur":27127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717449623013776, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717449623013785, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717449623015656, "dur":232650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717449622853810, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717449622853811, "dur":4304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717449622858119, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1717449622858584, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717449622867738, "dur":7776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1717449622875609, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":8, "ts":1717449622876047, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717449622877855, "dur":24089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":8, "ts":1717449622902004, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717449622902219, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717449622902232, "dur":6814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717449622909109, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717449622909304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717449622909310, "dur":9145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717449622918522, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717449622918936, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717449622918953, "dur":9065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717449622928102, "dur":10212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717449622938318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717449622938324, "dur":7723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717449622946157, "dur":960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717449622947133, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717449622947147, "dur":7421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717449622954635, "dur":20051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717449622974705, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717449622974732, "dur":11864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717449622986675, "dur":1070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717449622987757, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717449622987781, "dur":4157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717449622992033, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":8, "ts":1717449622992406, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717449622992425, "dur":12384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":8, "ts":1717449623004939, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1717449623005071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717449623005087, "dur":9551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1717449623014685, "dur":233632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717449622853935, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717449622853936, "dur":4172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717449622858116, "dur":7590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1717449622865709, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717449622866963, "dur":3401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1717449622870423, "dur":171595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717449623042023, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717449623042128, "dur":4877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717449623047041, "dur":201277, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622854005, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622854005, "dur":3929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622857938, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1717449622858108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622867706, "dur":8303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1717449622876141, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622876415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622879749, "dur":4808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622884607, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622884771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622884777, "dur":6325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622891173, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622891418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622891424, "dur":11007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622902492, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622902770, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622902786, "dur":6405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622909293, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622909667, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622909682, "dur":9294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622919074, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622919265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622919342, "dur":8856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622928252, "dur":12334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622940591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622940600, "dur":9000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622949677, "dur":1345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622951039, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622951057, "dur":7565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622958684, "dur":4161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622962859, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622962887, "dur":8551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622971522, "dur":3809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622975338, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622975351, "dur":12404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717449622987818, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":10, "ts":1717449622987911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449622987982, "dur":4463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":10, "ts":1717449622992542, "dur":14455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":10, "ts":1717449623007016, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717449623007043, "dur":8092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":10, "ts":1717449623015179, "dur":233116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449622854068, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449622854069, "dur":4037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449622858108, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1717449622858592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449622867659, "dur":8547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1717449622876282, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622876525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449622879753, "dur":4507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622884317, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622884533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449622884543, "dur":6072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622890673, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622890984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449622890990, "dur":9953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622901014, "dur":1391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622902408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449622902413, "dur":8870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622911399, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622911611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449622911621, "dur":8498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622920208, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622920558, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449622920572, "dur":7721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622928345, "dur":9420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622937770, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449622937780, "dur":7013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622944875, "dur":2117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622946996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449622947006, "dur":7520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622954606, "dur":7352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622961969, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449622961990, "dur":9838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449622971909, "dur":29587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449623001558, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449623001581, "dur":6268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717449623008077, "dur":5500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/boot.config" }}
-,{ "pid":12345, "tid":11, "ts":1717449623013584, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717449623013599, "dur":2093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/boot.config" }}
-,{ "pid":12345, "tid":11, "ts":1717449623015725, "dur":232560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717449622854155, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717449622854156, "dur":3945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717449622858103, "dur":7732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1717449622865839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717449622866678, "dur":3444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1717449622870180, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":12, "ts":1717449622870380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717449622870390, "dur":20064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":12, "ts":1717449622890538, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717449622890758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717449622890772, "dur":10443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717449622901295, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717449622901757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717449622901775, "dur":7056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717449622908920, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717449622909182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717449622909188, "dur":8932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717449622918198, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717449622918564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717449622918571, "dur":9179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717449622927824, "dur":9938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717449622937770, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717449622937782, "dur":7043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717449622945060, "dur":1581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717449622946647, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717449622946663, "dur":7871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717449622954638, "dur":20670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717449622975324, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717449622975344, "dur":12692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717449622988108, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":12, "ts":1717449622988202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717449622988208, "dur":6806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":12, "ts":1717449622995113, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/level2" }}
-,{ "pid":12345, "tid":12, "ts":1717449622995194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717449622995214, "dur":15850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/level2" }}
-,{ "pid":12345, "tid":12, "ts":1717449623011147, "dur":237135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717449622854250, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717449622854250, "dur":3873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717449622858123, "dur":7406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1717449622865538, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717449622867755, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1717449622870857, "dur":118223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":13, "ts":1717449622989117, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717449622989127, "dur":5716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":13, "ts":1717449622994980, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/level2.resS" }}
-,{ "pid":12345, "tid":13, "ts":1717449622995212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717449622995231, "dur":9925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/level2.resS" }}
-,{ "pid":12345, "tid":13, "ts":1717449623005251, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":13, "ts":1717449623005335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717449623005349, "dur":9756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":13, "ts":1717449623015167, "dur":233124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449622854337, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449622854337, "dur":3762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449622858100, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":14, "ts":1717449622858477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449622866539, "dur":9838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":14, "ts":1717449622876436, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622876597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449622879503, "dur":4328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622883874, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622884037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449622884072, "dur":5616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622889772, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622890028, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449622890042, "dur":9370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622899483, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622899721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449622899773, "dur":8303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622908184, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622908581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449622908595, "dur":9508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622918192, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622918550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449622918557, "dur":9091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622927726, "dur":10482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622938213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449622938219, "dur":7969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622946262, "dur":1820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622948126, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449622948142, "dur":8974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622957202, "dur":20461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622977675, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449622977695, "dur":10704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717449622988479, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":14, "ts":1717449622988545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449622988552, "dur":18989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":14, "ts":1717449623007614, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":14, "ts":1717449623007680, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717449623007698, "dur":7602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":14, "ts":1717449623015347, "dur":232953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717449622854420, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717449622854421, "dur":3691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717449622858112, "dur":7717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":15, "ts":1717449622865832, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717449622866920, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":15, "ts":1717449622870293, "dur":66562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717449622936863, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717449622938165, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717449622940309, "dur":632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717449622940945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717449622940952, "dur":5678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717449622946702, "dur":1249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717449622947961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717449622947975, "dur":8591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717449622956904, "dur":1337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717449622958247, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717449622958255, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717449622962255, "dur":41678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717449623003949, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717449623003976, "dur":8792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717449623012837, "dur":235452, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717449622854512, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717449622854513, "dur":3616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717449622858130, "dur":7500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1717449622865634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717449622867727, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1717449622870863, "dur":41373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab.exe" }}
-,{ "pid":12345, "tid":16, "ts":1717449622912242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717449622912253, "dur":4472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab.exe" }}
-,{ "pid":12345, "tid":16, "ts":1717449622916799, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717449622917043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717449622917054, "dur":9762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717449622926919, "dur":10904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717449622937830, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717449622937842, "dur":8087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717449622946057, "dur":887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717449622946949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717449622946964, "dur":7985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717449622955049, "dur":3971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717449622959029, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717449622959049, "dur":8384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717449622967525, "dur":19932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717449622987470, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717449622987490, "dur":3488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717449622991100, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":16, "ts":1717449622991204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717449622991230, "dur":10232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":16, "ts":1717449623001611, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/level1.resS" }}
-,{ "pid":12345, "tid":16, "ts":1717449623001676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717449623001682, "dur":12894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/buildHali/Kiddolab_Data/level1.resS" }}
-,{ "pid":12345, "tid":16, "ts":1717449623014643, "dur":233667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717449623251993, "dur":1539, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1717521916932287, "dur":1068, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521916933363, "dur":37, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1717521916933411, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1717521916933425, "dur":613, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1717521916934070, "dur":487, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521916934557, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040377, "dur":393, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040770, "dur":96, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040866, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040871, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040906, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040908, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040912, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040914, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040920, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040922, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040928, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040929, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040933, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040935, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040939, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040940, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040944, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040945, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040949, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040950, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040954, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040955, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040959, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040960, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040964, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040965, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040969, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040970, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040974, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040975, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040980, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040981, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917040984, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917041003, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917041012, "dur":1402, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1717521916934486, "dur":103, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717521916934590, "dur":4766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717521916939358, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1717521916939873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717521916942203, "dur":4076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1717521916946326, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1717521916946467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717521916946475, "dur":3777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1717521916950391, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717521916950482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717521916950491, "dur":24275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717521916975173, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717521916975303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717521916975312, "dur":10953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717521916986331, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717521916986401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717521916986408, "dur":12837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717521916999300, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717521916999516, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717521916999533, "dur":7182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717521917006766, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717521917006849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717521917006855, "dur":5496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717521917012388, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717521917012421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717521917012426, "dur":6478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717521917018941, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717521917018977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717521917018982, "dur":10756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717521917029875, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1717521917030099, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717521917030128, "dur":6235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1717521917036411, "dur":3956, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717521916934453, "dur":122, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717521916934575, "dur":4773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717521916939355, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1717521916939777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717521916948289, "dur":16474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1717521916964829, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717521916964872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717521916964877, "dur":15039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717521916980020, "dur":759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717521916980795, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717521916980821, "dur":12049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717521916992967, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717521916993145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717521916993155, "dur":10876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717521917004090, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717521917004141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717521917004154, "dur":5197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717521917009389, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717521917009734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717521917009741, "dur":5563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717521917015360, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717521917015408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717521917015417, "dur":9010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717521917024653, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1717521917024904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717521917024912, "dur":7528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1717521917032637, "dur":7721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717521916934758, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717521916934758, "dur":4586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717521916939354, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1717521916939857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717521916944484, "dur":3223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1717521916947786, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521916947936, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717521916948501, "dur":18556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521916967367, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521916967550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717521916967571, "dur":14393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521916982042, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521916982150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717521916982158, "dur":10984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521916993227, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521916993281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717521916993288, "dur":8537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521917001887, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521917001936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717521917001946, "dur":6369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521917008360, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521917008405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717521917008410, "dur":5136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521917013607, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521917013655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717521917013661, "dur":5928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521917019619, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521917019650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717521917019654, "dur":11149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717521917030852, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1717521917030909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717521917030915, "dur":5958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1717521917036913, "dur":3458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717521916934553, "dur":6, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717521916934560, "dur":4780, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717521916939354, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1717521916939357, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717521916939574, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1717521916939582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717521916940601, "dur":5110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1717521916945715, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1717521916945898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717521916945908, "dur":4432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1717521916950424, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717521916950485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717521916950521, "dur":24940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717521916975554, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717521916975638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717521916975696, "dur":9225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717521916985010, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717521916985085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717521916985097, "dur":12976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717521916998154, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717521916998219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717521916998229, "dur":7656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717521917005951, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717521917006019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717521917006023, "dur":5237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717521917011312, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717521917011687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717521917011722, "dur":6551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717521917018331, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717521917018391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717521917018398, "dur":9149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717521917027650, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1717521917027727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717521917027736, "dur":7479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1717521917035503, "dur":4845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717521916934614, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717521916934615, "dur":4774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717521916939390, "dur":654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1717521916940049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717521916941097, "dur":5368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1717521916946512, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1717521916946648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717521916946655, "dur":3880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1717521916950586, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717521916950630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717521916950635, "dur":22933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717521916973632, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717521916973699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717521916973710, "dur":9811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717521916983623, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717521916983688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717521916983699, "dur":10673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717521916994411, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717521916994459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717521916994463, "dur":10643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717521917005201, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717521917005243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717521917005247, "dur":5487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717521917010772, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717521917011040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717521917011057, "dur":5170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717521917016309, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717521917016373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717521917016379, "dur":13191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717521917030058, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1717521917030357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717521917030371, "dur":6468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1717521917036899, "dur":3481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717521916934683, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717521916934683, "dur":4667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717521916939355, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1717521916939811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717521916945337, "dur":3346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1717521916948777, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717521916948889, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717521916949357, "dur":17406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717521916966920, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717521916967061, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717521916967085, "dur":14838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717521916982018, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717521916982092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717521916982152, "dur":11613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717521916993845, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717521916993922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717521916993932, "dur":10147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717521917004127, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717521917004174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717521917004182, "dur":5137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717521917009360, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717521917009514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717521917009521, "dur":5008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717521917014563, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717521917014596, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717521917014601, "dur":6584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717521917021262, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1717521917021309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717521917021320, "dur":14554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1717521917035946, "dur":4401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717521916934828, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717521916934828, "dur":4545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717521916939381, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1717521916939874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717521916942160, "dur":4844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1717521916947084, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1717521916947200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717521916947231, "dur":25634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1717521916972950, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717521916973036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717521916973058, "dur":10471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717521916983635, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717521916983721, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717521916983729, "dur":10457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717521916994248, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717521916994325, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717521916994332, "dur":10037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717521917004410, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717521917004458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717521917004464, "dur":5467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717521917009984, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717521917010463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717521917010469, "dur":5811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717521917016327, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717521917016377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717521917016441, "dur":7542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717521917024166, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1717521917024360, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717521917024376, "dur":6254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1717521917030757, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1717521917030823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717521917030832, "dur":6153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1717521917037028, "dur":3359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717521916934872, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717521916934872, "dur":4519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717521916939392, "dur":611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1717521916940008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717521916941152, "dur":5341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1717521916946546, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521916946672, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717521916947225, "dur":5396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521916952663, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521916952723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717521916952729, "dur":24220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521916977049, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521916977185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717521916977195, "dur":11582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521916988852, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521916988905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717521916988912, "dur":10301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521916999273, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521916999324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717521916999331, "dur":7592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521917006985, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521917007042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717521917007047, "dur":5078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521917012167, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521917012213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717521917012220, "dur":7349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521917019606, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521917019641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717521917019646, "dur":18590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717521917038279, "dur":2090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717521916934933, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717521916934934, "dur":4408, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717521916939354, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1717521916939782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717521916948027, "dur":16601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1717521916964699, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717521916964762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717521916964772, "dur":12755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717521916977679, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717521916977745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717521916977754, "dur":11033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717521916988866, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717521916988985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717521916988990, "dur":11069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717521917000149, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717521917000225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717521917000282, "dur":7184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717521917007503, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717521917007539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717521917007545, "dur":5613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717521917013189, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717521917013223, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717521917013228, "dur":7055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717521917020338, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":9, "ts":1717521917020404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717521917020409, "dur":6184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":9, "ts":1717521917026676, "dur":12517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1717521917039195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717521917039202, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1717521917040310, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1717521917040311, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717521916935003, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717521916935004, "dur":4349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717521916939376, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1717521916939806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717521916943042, "dur":4386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1717521916947493, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1717521916947646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717521916948241, "dur":34780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1717521916983395, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717521916983598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717521916983618, "dur":13542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717521916997203, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717521916997240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717521916997247, "dur":8629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717521917005947, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717521917006006, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717521917006012, "dur":5576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717521917011638, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717521917011676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717521917011682, "dur":5477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717521917017244, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717521917017348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717521917017362, "dur":12335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717521917029854, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1717521917030248, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717521917030269, "dur":6772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1717521917037114, "dur":3265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717521916935073, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717521916935074, "dur":4310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717521916939388, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1717521916939851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717521916947171, "dur":5006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1717521916952244, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717521916952320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717521916952333, "dur":24650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717521916977076, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717521916977170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717521916977183, "dur":12424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717521916989660, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717521916989713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717521916989724, "dur":11354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717521917001137, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717521917001197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717521917001209, "dur":7130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717521917008377, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717521917008415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717521917008420, "dur":5475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717521917013933, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717521917013966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717521917013971, "dur":5961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717521917019976, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717521917020140, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717521917020145, "dur":10974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717521917031185, "dur":8003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1717521917039193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717521917039202, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1717521917040279, "dur":73, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717521916935120, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717521916935120, "dur":4258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717521916939380, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1717521916939808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717521916943842, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1717521916947040, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717521916947179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717521916947186, "dur":57708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717521917005086, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717521917005161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717521917005168, "dur":5213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717521917010424, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717521917010461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717521917010469, "dur":5751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717521917016307, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717521917016367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717521917016377, "dur":12827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717521917029396, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1717521917029546, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717521917029607, "dur":6663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1717521917036331, "dur":4019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717521916935183, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717521916935183, "dur":4199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717521916939385, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1717521916939799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717521916949337, "dur":25639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1717521916975053, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717521916975160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717521916975184, "dur":9843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717521916985127, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717521916985187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717521916985198, "dur":12869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717521916998153, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717521916998215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717521916998229, "dur":7689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717521917005964, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717521917006044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717521917006049, "dur":5558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717521917011663, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717521917011723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717521917011729, "dur":8256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717521917020036, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1717521917020101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717521917020186, "dur":3748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1717521917024022, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":13, "ts":1717521917024122, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717521917024140, "dur":14305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":13, "ts":1717521917038481, "dur":1884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717521916935258, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717521916935259, "dur":4087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717521916939355, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1717521916939823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717521916943395, "dur":3722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1717521916947184, "dur":37195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab.exe" }}
+,{ "pid":12345, "tid":14, "ts":1717521916984386, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717521916984398, "dur":4283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab.exe" }}
+,{ "pid":12345, "tid":14, "ts":1717521916988752, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717521916988828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717521916988857, "dur":11151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717521917000084, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717521917000168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717521917000180, "dur":8195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717521917008430, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717521917008466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717521917008470, "dur":5084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717521917013616, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717521917013668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717521917013673, "dur":6373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717521917020117, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":14, "ts":1717521917020192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717521917020201, "dur":4156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":14, "ts":1717521917024462, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1717521917024539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717521917024546, "dur":7948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1717521917032692, "dur":7652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717521916935317, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717521916935318, "dur":4043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717521916939362, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1717521916939822, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717521916941456, "dur":5171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1717521916946682, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717521916946795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717521916947247, "dur":38820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717521916986228, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717521916986325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717521916986339, "dur":12843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717521916999239, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717521916999301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717521916999313, "dur":6999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717521917006347, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717521917006379, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717521917006382, "dur":5514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717521917011931, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717521917011971, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717521917011975, "dur":6106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717521917018171, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717521917018259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717521917018272, "dur":9090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717521917027483, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/level2.resS" }}
+,{ "pid":12345, "tid":15, "ts":1717521917027577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717521917027597, "dur":8272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/level2.resS" }}
+,{ "pid":12345, "tid":15, "ts":1717521917035985, "dur":4414, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717521916935375, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717521916935375, "dur":4019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717521916939395, "dur":632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1717521916940031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717521916944740, "dur":3194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1717521916948010, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717521916948100, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717521916948456, "dur":13612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717521916962136, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717521916962199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717521916962210, "dur":16667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717521916978941, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717521916979000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717521916979014, "dur":13941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717521916993033, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717521916993148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717521916993155, "dur":9774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717521917002980, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717521917003021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717521917003029, "dur":5677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717521917008744, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717521917008793, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717521917008797, "dur":5451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717521917014292, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717521917014327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717521917014333, "dur":6538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717521917020936, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1717521917021010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717521917021023, "dur":18407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Simge/Desktop/sonBuildHali/Kiddolab_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1717521917039460, "dur":914, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717521917043576, "dur":1496, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
